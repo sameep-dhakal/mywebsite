@@ -4,9 +4,11 @@ import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import MainLayout from "../layout/mainLayout/mainLayout"
 
 function Home() {
   return (
+    <MainLayout>
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
@@ -43,6 +45,7 @@ function Home() {
       </Container>
       <Home2 />
     </section>
+    </MainLayout>
   );
 }
 

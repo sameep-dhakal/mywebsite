@@ -1,9 +1,9 @@
 // MainLayout.js
 import React from "react";
-import Navbar from "./navbar/navbar";
-import Footer from "./footer/footer";
+import Navbar from "../navbar/navbar";
+import Footer from "../footer/footer";
 import './mainLayout.css';
-import FloatingShapes from "./floatingShapes/floatingShapes";
+import FloatingShapes from "../floatingShapes/floatingShapes";
 
 function MainLayout({ children }) {
     return (
