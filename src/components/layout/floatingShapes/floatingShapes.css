@@ -1,0 +1,204 @@
+/* FloatingShapes.css */
+
+.floating-shapes-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.floating-shape {
+    position: absolute;
+    opacity: 0.7;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #a2e9e9;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: customFloat 20s infinite linear;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #818183;
+    animation: circularMotion 20s infinite linear;
+}
+
+.heart {
+    width: 20px;
+    height: 18px;
+    animation: customFloat 50s infinite linear;
+    position: relative;
+}
+
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: rgb(199, 127, 127);
+    border-radius: 10px 10px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.diamond {
+    border-style: solid;
+    border-color: transparent transparent rgb(181, 231, 225) transparent;
+    border-width: 0 10px 10px 10px;
+    height: 0;
+    width: 20px;
+    animation: circularMotion 20s infinite;
+    box-sizing: content-box;
+    position: relative;
+    margin: 8px 0 20px 0;
+}
+
+.diamond:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: rgb(181, 231, 225) transparent transparent transparent;
+    border-width: 28px 20px 0 20px;
+}
+
+.star {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid transparent rgb(233, 232, 170);
+    animation: bouncing 20s infinite linear;
+    position: relative;
+}
+
+.star:after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid rgb(233, 232, 170);
+    position: absolute;
+    content: "";
+    top: 7.5px;
+    left: -10px;
+}
+
+.infinity {
+    width: 42px;
+    height: 20px;
+    animation: circularMotion 20s infinite;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.infinity:before,
+.infinity:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border: 4px solid rgb(146, 237, 241);
+    border-radius: 12px 12px 0 12px;
+    transform: rotate(-45deg);
+}
+
+.infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 12px 12px 12px 0;
+    transform: rotate(45deg);
+}
+
+.octagon {
+    width: 10px;
+    height: 10px;
+    background-color: #c3c3f3;
+    animation: circularMotion 20s infinite linear;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+/* Circular Motion animation */
+.circularMotion {
+    animation: circularMotion 1000s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes circularMotion {
+    0% {
+        transform: translateX(0) translateY(50px);
+    }
+    25% {
+        transform: translateX(50px) translateY(0);
+    }
+    50% {
+        transform: translateX(0) translateY(-50px);
+    }
+    75% {
+        transform: translateX(-50px) translateY(0);
+    }
+    100% {
+        transform: translateX(0) translateY(50px);
+    }
+}
+
+/* Bouncing animation */
+.square.bouncing {
+    animation: bouncing 20s infinite ease-in-out;
+}
+
+@keyframes bouncing {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Custom Float animation */
+.circle.customFloat {
+    animation: customFloat 2s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes customFloat {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(50px, 50px);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    75% {
+        transform: translate(-50px, -50px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

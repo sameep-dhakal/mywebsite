@@ -1,0 +1,43 @@
+/* mainLayout.css */
+
+/* Define the background styles */
+.main-layout {
+    min-height: 100vh;
+    position: relative;
+    background: rgba(130, 235, 235, 0.1);
+    overflow: hidden; /* Hide overflowing content */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    flex: 1; /* Allow the content to grow and push the footer down */
+    overflow-y: auto; /* Add a scrollbar when content overflows */
+  }
+
+/* Bubbles styles */
+.bubble-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Ensure bubbles don't interfere with content */
+}
+
+.bubble {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3); /* Bubble color with opacity */
+    border-radius: 50%;
+    animation: float 4s infinite;
+}
+
+/* Define the animation for bubbles */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
