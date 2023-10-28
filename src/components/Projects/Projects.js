@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
-import nurse from "../../Assets/Projects/nurse.png";
+import pf from "../../Assets/Projects/processreport.png";
 
 function Projects() {
   return (
@@ -19,21 +18,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nurse}
+             imgPath={pf}
               isBlog={false}
-              title="Australian Nurse careers"
-              description="The 'Aussie Nurse Careers' website is a comprehensive platform tailored for nursing professionals in Australia. This digital platform is designed to be a one-stop-shop for all nursing career-related needs, guiding nurses through various stages of their professional journey."
-              ghLink="https://github.com/JatinKarnwal/aussie-nurse-careers"
-              demoLink="https://aussienursecareers-git-main-jkarnwal20-gmailcom.vercel.app/"
+              title="Process Feedback"
+              description="Process Feedback is a tool for visualizing the journey of a writing task. Summarizing the journey with interactive and insightful data visualizations, it helps us gain a deeper understanding of our writing and coding process"
+              demoLink="https://www.processfeedback.org/"
             />
           </Col>
-
-       
-
-       
-
-         
-
      
         </Row>
       </Container>
