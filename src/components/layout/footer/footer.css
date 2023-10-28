@@ -1,0 +1,39 @@
+/* YourNewFooter.css */
+
+.footer {
+    background: linear-gradient(to right, #333, #555); /* Gradient background color */
+    color: white; /* Text color */
+    padding: 5px 0; /* Reduce the padding to decrease the height */
+    text-align: center; /* Center-align the content */
+    position: absolute; /* Fixed position to keep it at the bottom */
+    bottom: 0;
+    width: 100%; /* Full width */
+  }
+  
+  .footer h3 {
+    font-size: 0.9rem; /* Reduce the font size */
+    margin: 2px 0; /* Add margin for spacing */
+  }
+  
+  .footer-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-icons li {
+    font-size: 1rem; /* Reduce the font size */
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add hover effect if needed */
+  .social-icons a:hover {
+    color: #ff9900;
+  }
+  

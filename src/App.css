@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Add a style to ensure the footer remains at the bottom */
+#scroll {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Style the content container (everything except the footer) */
+#content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Style the footer */
+#footer {
+  padding: 10px;
+  background: linear-gradient(to right, #333, #555);
+  color: white;
+  text-align: center;
+}
+
+#footer h3 {
+  font-size: 0.9rem;
+  margin: 2px 0;
+}
+
+/* Style the social icons if needed */
+.social-icons a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Add hover effect if needed */
+.social-icons a:hover {
+  color: #ff9900;
+}

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/layout/navbar/navbar";
+
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
+import Footer from "./components/layout/footer/footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
