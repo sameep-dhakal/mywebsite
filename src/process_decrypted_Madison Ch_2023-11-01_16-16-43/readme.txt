@@ -1,0 +1,1 @@
+This zip folder contains “data.json,” a writing or coding journey report data in JSON file format. The contents of the this file, in most cases, are encrypted using the Javascript Crypto module. If a passcode was chosen during encryption, it will be required for decryption. The zip file (containing the data.json) can be decrypted at http://www.processfeedback.org/decrypt/.
