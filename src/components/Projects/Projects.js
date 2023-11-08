@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pf from "../../Assets/Projects/processreport.png";
+import summarizer from "../../Assets/Projects/summarizer.png";
 
 function Projects() {
   return (
@@ -23,6 +24,15 @@ function Projects() {
               title="Process Feedback"
               description="Process Feedback is a tool for visualizing the journey of a writing task. Summarizing the journey with interactive and insightful data visualizations, it helps us gain a deeper understanding of our writing and coding process"
               demoLink="https://www.processfeedback.org/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+             imgPath={summarizer}
+              isBlog={false}
+              title="Text Summarizer"
+              description="Text Summarizer is an intelligent tool condenses lengthy paragraphs into a concise summary, capturing the most critical information and main ideas."
+              demoLink=" "
             />
           </Col>
      
