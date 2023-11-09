@@ -11,7 +11,7 @@ function MainLayout({ children }) {
             <Navbar />
             <div className="content-container">
                 {children}
-                <FloatingShapes />
+                {/* <FloatingShapes /> */}
             </div>
             <Footer />
 
