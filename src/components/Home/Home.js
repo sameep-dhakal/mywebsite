@@ -5,43 +5,8 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import MainLayout from "../layout/mainLayout/mainLayout"
-import {compress, decompress} from 'huffy';
-import jsonData from '../../test.json'; // <-- Importing the JSON data
 
 function Home() {
-
-
-// Convert the JSON object to a string
-const jsonString = JSON.stringify(jsonData);
-// console.log("json string is", jso)
-
-// Encode the string to create a buffer
-const buffertimestart = performance.now();
-const buffer = new TextEncoder().encode(jsonString);
-const buffertimeend = performance.now();
-console.log("buffer string", buffer);
-console.log("buffer time", buffertimestart-buffertimeend);
-
-
-// Compress and decompress the buffer
-// Measure time taken for compression
-const compressTimeStart = performance.now();
-const compressed = compress(buffer);
-const compressTimeEnd = performance.now();
-console.log("compressed is", compressed);
-console.log("Compression time (ms):", compressTimeEnd - compressTimeStart);
-
-// Measure time taken for decompression
-const decompressTimeStart = performance.now();
-const decompressed = decompress(compressed);
-const decompressTimeEnd = performance.now();
-console.log("decompressed is", decompressed);
-console.log("Decompression time (ms):", decompressTimeEnd - decompressTimeStart);
-
-
-// Calculate and log the compression ratio
-console.log('Compression ratio:', compressed.length / buffer.length);
-
   return (
     <MainLayout>
     <section>
