@@ -1,39 +1,38 @@
-
-/* Navbar */
 .navbar-custom {
-    background: linear-gradient(45deg, #858383, #201f20);
-  }
-  
-  /* Navbar brand/logo */
-  .navbar-custom .navbar-brand img {
-    max-height: 40px; /* Adjust the logo height as needed */
-  }
-  
-  /* Navbar links */
-  .navbar-custom .nav-link {
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .navbar-custom .nav-link:hover {
-    color: #8a666e; /* Change color on hover */
-  }
-  
-  /* Toggled Navbar */
-  .navbar-custom .navbar-toggler-icon {
-    background-color: white; /* Change the toggle icon color */
-  }
-  
-  /* Button style */
-  .fork-btn-inner {
-    background-color: #ff85a2;
-    color: white;
-    border: none;
-    transition: background-color 0.3s;
-  }
-  
-  .fork-btn-inner:hover {
-    background-color: #ec6ead; /* Change button color on hover */
-  }
-  
+  background: linear-gradient(180deg, #141947, #494d5e); /* Morning sky gradient */
+}
+
+/* Navbar brand/logo */
+.navbar-custom .navbar-brand img {
+  max-height: 40px; /* Adjust the logo height as needed */
+}
+
+/* Navbar links */
+.navbar-custom .nav-link {
+  color: white; /* Text color */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #8a666e; /* Change color on hover */
+}
+
+/* Toggled Navbar */
+.navbar-custom .navbar-toggler-icon {
+  background-color: white; /* Change the toggle icon color */
+}
+
+/* Button style */
+.fork-btn-inner {
+  background-color: #ff85a2; /* Complementary button color */
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.fork-btn-inner:hover {
+  background-color: #ec6ead; /* Change button color on hover */
+}
+
+/* Add a similar style for other elements in your CSS */

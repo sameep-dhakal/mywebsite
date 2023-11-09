@@ -1,7 +1,7 @@
 /* YourNewFooter.css */
 
 .footer {
-    background: linear-gradient(to right, #333, #555); /* Gradient background color */
+  background: linear-gradient(180deg, #141947, #494d5e); /* Morning sky gradient */
     color: white; /* Text color */
     padding: 5px 0; /* Reduce the padding to decrease the height */
     text-align: center; /* Center-align the content */
@@ -34,6 +34,6 @@
   
   /* Add hover effect if needed */
   .social-icons a:hover {
-    color: #ff9900;
+    color: #FFD700;
   }
   

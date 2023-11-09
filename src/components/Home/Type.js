@@ -8,11 +8,11 @@ function Type() {
         strings: [
           "Computer Engineer",
           "Teacher",
-          "Meaching learning Enthusiast",
+          "Machine Learning Enthusiast",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 5,
       }}
     />
   );
