@@ -39,7 +39,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Rode.js</b> and
+              with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
