@@ -16,10 +16,10 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Hello and Namaste!{" "}
+                <span className="greeting" role="img" aria-labelledby="namaste">
+                  🙏
+                  </span>
               </h1>
 
               <h1 className="heading-name">
@@ -36,9 +36,8 @@ function Home() {
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "550px",
-               borderRadius:"50%"}}
+                className="img-fluid rounded-circle"
+                style={{ height: "400px", width: "400px", objectFit: "cover" ,border:'2px solid'}}
               />
             </Col>
           </Row>

@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(0, 0, 0, 0.6),   /* Darker shade of black */
-    rgba(0, 0, 50, 0.6)   /* Dark blue */
+    #00000099,   /* Darker shade of black */
+    #00003299   /* Dark blue */
   );
 
   --image-gradient: linear-gradient(
@@ -257,8 +257,8 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  /* background-position: ; */
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;

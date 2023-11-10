@@ -18,7 +18,7 @@ function Particle() {
             value: "#7a33d8", // Change the color to your preferred choice
           },
           shape: {
-            type: "circle",
+            type: "start",
           },
           line_linked: {
             enable: true,
