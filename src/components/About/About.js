@@ -6,9 +6,12 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import MainLayout from "../layout/mainLayout/mainLayout"
+
 
 function About() {
   return (
+    <MainLayout>
     <Container fluid className="about-section">
       <Particle />
       <Container>
@@ -45,6 +48,7 @@ function About() {
 
       </Container>
     </Container>
+    </MainLayout>
   );
 }
 

@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/sameepresume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
+import MainLayout from "../layout/mainLayout/mainLayout"
+
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -16,6 +18,7 @@ function ResumeNew() {
   }, []);
 
   return (
+    <MainLayout>
     <div>
       <Container fluid className="resume-section">
         <Particle />
@@ -68,6 +71,7 @@ function ResumeNew() {
         </Row>
       </Container>
     </div>
+    </MainLayout>
   );
 }
 

@@ -5,7 +5,7 @@
     color: white; /* Text color */
     padding: 5px 0; /* Reduce the padding to decrease the height */
     text-align: center; /* Center-align the content */
-    position: absolute; /* Fixed position to keep it at the bottom */
+    position: relative; /* Fixed position to keep it at the bottom */
     bottom: 0;
     width: 100%; /* Full width */
   }

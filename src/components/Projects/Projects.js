@@ -4,9 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pf from "../../Assets/Projects/processreport.png";
 import summarizer from "../../Assets/Projects/summarizer.png";
+import MainLayout from "../layout/mainLayout/mainLayout"
 
 function Projects() {
   return (
+    <MainLayout>
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -39,6 +41,7 @@ function Projects() {
         </Row>
       </Container>
     </Container>
+    </MainLayout>
   );
 }
 
