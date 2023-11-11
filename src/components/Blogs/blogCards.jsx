@@ -9,12 +9,9 @@ function BlogCards(props) {
             <Card.Body>
                 <Card.Title style={{ color: "#05aaaa" }} >{props.title}</Card.Title>
                 {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
-                <Card.Text style={{ textAlign: "justify", whiteSpace: "pre-line" }} dangerouslySetInnerHTML={{ __html: props.description }} >
+                <Card.Text style={{ textAlign: "justify", whiteSpace: "pre-line" }} >
                     {props.description}
                 </Card.Text>
-                <Card.Text style={{ textAlign: "justify" }} dangerouslySetInnerHTML={{ __html: props.description }} />
-
-
                 <Button
                     variant="primary"
                     href={props.blogLink}

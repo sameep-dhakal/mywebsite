@@ -25,16 +25,17 @@ function Blogs() {
                             Automatic Motion Artifact Removal in
                             Electrodermal Activity"
                                 imgPath={autoencoder}
-                                isBlog={true}
+                                isBlog={false}
+                                description={`
+                                There are 3 main intuitions that you may take from the paper.
 
-                                description="There are 3 main intuitions that you may take from the paper.
+                                Aim: Develop a robust and data-driven automatic motion artifacts (MA) removal technique from electrodermal activity (EDA) signal also known as galvanic skin response that is generated due to the activation of sweat glands in the body in reaction to some kind of emotional activity.                            
                                 
-                                Aim: Develop a robust and data-driven automatic motion artifacts (MA) removal technique from electrodermal activity (EDA) signal also known as galvanic skin response that is generated due to the activation of sweat glands in the body in reaction to some kind of emotional activity.
+                                Method: Paper Proposed a deep convolutional autoencoder (DCAE) approach, trained on 4 different types of datasets including Gaussian white noise (GWN) and realistic MA data recorded in the lab.                            
                                 
-                                Method: Paper Proposed a deep convolutional autoencoder (DCAE) approach, trained on 4 different types of datasets including Gaussian white noise (GWN) and realistic MA data recorded in the lab.
-                                
-                                Results: DCAE model outperformed three previous methods i.e. wavelet method, low pass filtering method, and exponential smoothing method, showing significantly higher signal-to-noise-power-ratio improvement (SNRimp) and lower mean squared error (MSE) on MA-corrupted data. The reconstructed EDAs had a mean correlation value of 0.78 with reference clean data from the motionless hand, indicating higher effectiveness in removing MAs compared to other methods with only a correlation value of 0.68 for raw MA-corrupted data."
-                                blogLink="https://www.processfeedback.org/"
+                                Results: DCAE model outperformed three previous methods i.e. wavelet method, low pass filtering method, and exponential smoothing method, showing significantly higher signal-to-noise-power-ratio improvement (SNRimp) and lower mean squared error (MSE) on MA-corrupted data. The reconstructed EDAs had a mean correlation value of 0.78 with reference clean data from the motionless hand, indicating higher effectiveness in removing MAs compared to other methods with only a correlation value of 0.68 for raw MA-corrupted data.                            
+                              `}
+                                blogLink="https://pub.aimind.so/review-on-paper-a-deep-convolutional-autoencoder-for-automatic-motion-artifact-removal-in-b99e421e795a?gi=d5cdf12d60bc"
                             />
                         </Col>
                         {/* Add more BlogCards if needed */}

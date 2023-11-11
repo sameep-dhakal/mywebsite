@@ -33,7 +33,7 @@ function Projects() {
              imgPath={summarizer}
               isBlog={false}
               title="Text Summarizer"
-              description="Text Summarizer is an intelligent tool condenses lengthy paragraphs into a concise summary, capturing the most critical information and main ideas."
+              description="Text Summarizer is an intelligent tool that condenses lengthy paragraphs into a concise summary, capturing the most critical information and main ideas."
               demoLink=" "
             />
           </Col>
