@@ -8,7 +8,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -68,27 +68,27 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href=" "
+                  href=" https://github.com/sameep-dhakal"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <  AiFillGithub/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href=" "
+                  href="https://www.facebook.com/dhakalsameep"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href=" "
+                  href="https://www.linkedin.com/in/sameep-dhakal-082155154/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -98,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href=" "
+                  href="https://www.instagram.com/sameeps_/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

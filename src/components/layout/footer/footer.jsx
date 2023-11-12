@@ -5,7 +5,7 @@ import {
     AiOutlineTwitter,
     AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 import './footer.css'
 
 function Footer() {
@@ -16,22 +16,22 @@ function Footer() {
             <div className="footer-icons">
                 <ul className="social-icons">
                     <li className="social-icons">
-                        <a href=" " target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/sameep-dhakal " target="_blank" rel="noopener noreferrer">
                             <AiFillGithub />
                         </a>
                     </li>
                     <li className="social-icons">
-                        <a href=" " target="_blank" rel="noopener noreferrer">
-                            <AiOutlineTwitter />
+                        <a href="https://www.facebook.com/dhakalsameep " target="_blank" rel="noopener noreferrer">
+                            <FaFacebook />
                         </a>
                     </li>
                     <li className="social-icons">
-                        <a href=" " target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/sameep-dhakal-082155154/ " target="_blank" rel="noopener noreferrer">
                             <FaLinkedinIn />
                         </a>
                     </li>
                     <li className="social-icons">
-                        <a href="https://www.instagram.com/soumyajit4419" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/sameeps_/" target="_blank" rel="noopener noreferrer">
                             <AiFillInstagram />
                         </a>
                     </li>
