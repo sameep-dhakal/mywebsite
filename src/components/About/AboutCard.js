@@ -25,7 +25,7 @@ function AboutCard() {
                
       </li>
       <li className="about-activity">
-         <FaMusic /> Love exploring different genres
+         <FaMusic /> Exploring different genres
       </li>
       <li className="about-activity">
         <FaPlane /> Always ready for an adventure
