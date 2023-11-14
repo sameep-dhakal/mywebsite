@@ -591,6 +591,7 @@ button:focus {
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
+  padding-bottom: 3px;
 }
 
 @media (max-width: 767px) {
@@ -774,4 +775,12 @@ button:focus {
   z-index: 1;
   margin-left: 10px; /* Add some space between the company name and the tooltip */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for better visibility */
+}
+
+
+.madrid-logo {
+  height: 1.3em; /* Sets the image height to match the current font size */
+  width: auto; 
+  vertical-align:middle;
+  margin-left: -18px;
 }
