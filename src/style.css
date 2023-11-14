@@ -319,19 +319,19 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 25px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
 
 .home-about-body {
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -741,14 +741,23 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
-.company-name {
+.company-name a {
+  text-decoration: none; /* Removes the underline */
   font-weight: bold;
   font-style: italic;
-  color: #28b3bd; /* Change the color as per your preference */
-  position: relative;
+  color: #05aaaa; /* Adjust the color as needed */
   cursor: pointer;
+  margin-left: 5px;
+}
+
+.company-name a:hover {
+  text-decoration: none; /* Ensures underline does not reappear on hover */
+}
+
+.company-name {
   display: inline-block; /* Ensure that the element respects the padding */
   margin-bottom: 15px; /* Adjust the gap between companies */
+  position: relative;
 }
 
 .company-name:hover::after {
@@ -756,7 +765,7 @@ button:focus {
   position: absolute;
   bottom: 0;
   left: 100%; /* Position it to the right of the company name */
-  background-color: rgb(29, 39, 56); /* Change background color */
+  background-color: rgb(22, 21, 59); /* Change background color */
   color: #fff; /* Change text color */
   padding: 5px 10px;
   border-radius: 5px;
