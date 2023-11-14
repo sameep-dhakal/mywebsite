@@ -741,3 +741,28 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.company-name {
+  font-weight: bold;
+  font-style: italic;
+  color: #28b3bd; /* Change the color as per your preference */
+  position: relative;
+  cursor: pointer;
+  display: inline-block; /* Ensure that the element respects the padding */
+  margin-bottom: 15px; /* Adjust the gap between companies */
+}
+
+.company-name:hover::after {
+  content: attr(data-hover-content);
+  position: absolute;
+  bottom: 0;
+  left: 100%; /* Position it to the right of the company name */
+  background-color: rgb(29, 39, 56); /* Change background color */
+  color: #fff; /* Change text color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  z-index: 1;
+  margin-left: 10px; /* Add some space between the company name and the tooltip */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for better visibility */
+}
