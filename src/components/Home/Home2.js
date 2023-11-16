@@ -24,7 +24,7 @@ function Home2() {
     Software Developer at 
     <span className="company-name" data-hover-content="june,2023-Now"> 
         <a href="https://www.processfeedback.org" target="_blank" rel="noreferrer">
-            Process Feedback
+            Process Feedback.
         </a>
     </span>
     <br />
@@ -38,14 +38,14 @@ function Home2() {
     Software Engineer at 
     <span className="company-name" data-hover-content="May,2022-August,2022"> 
         <a href="https://bpeyefoundation.org/" target="_blank" rel="noreferrer">
-            BP Eye Foundation
+            BP Eye Foundation.
         </a>
     </span>
     <br />
     Data Science Fellow at 
     <span className="company-name" data-hover-content="April,2022-May,2022"> 
         <a href="https://www.deerhold.com/" target="_blank" rel="noreferrer">
-            Deerhold
+            Deerhold.
         </a>
     </span>
 </h2>
