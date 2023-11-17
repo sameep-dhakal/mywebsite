@@ -4,7 +4,7 @@
 
 /* Navbar brand/logo */
 .navbar-custom .navbar-brand img {
-  max-height: 40px; /* Adjust the logo height as needed */
+  max-height: 50px; /* Adjust the logo height as needed */
 }
 
 /* Navbar links */
@@ -35,4 +35,3 @@
   background-color: #ec6ead; /* Change button color on hover */
 }
 
-/* Add a similar style for other elements in your CSS */
