@@ -9,8 +9,8 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+        <blockquote className="blockquote mb-0 text-center">
+          <p style={{ textAlign: "center" }}>
             I am from <span className="purple"> Land of Himalayas <strong> Nepal</strong> </span>🇳🇵
             <br /> I am a Computer Engineering graduate from Tribhuvan University, Nepal.
             <br />
@@ -19,8 +19,8 @@ function AboutCard() {
           <ul className="about-activity-list">
       <li className="about-activity">
          <GiSoccerBall /> Passionate about playing Football 
-        <ul> 
-          <li>  And I love <strong>Real Madrid <img src={madridLogo} alt="Real Madrid Logo" className="madrid-logo" /></strong>  </li>  
+         <ul style={{ listStyle: "none" }}>
+                    <li>  And I love <strong>Real Madrid <img src={madridLogo} alt="Real Madrid Logo" className="madrid-logo" /></strong>  </li>  
         </ul>
                
       </li>
@@ -32,7 +32,7 @@ function AboutCard() {
       </li>
     </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "#05aaaa" }}>
           "Shape with commitment; revolutionize with innovation."
           </p>
           <footer className="blockquote-footer">Sameep</footer>

@@ -439,7 +439,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #05aaaa !important;
 }
 /* --------- */
 /* Projects */
@@ -595,9 +595,9 @@ button:focus {
 
 .about-activity {
   list-style: none !important;
-  text-align: left !important;
+  text-align: center !important;
   padding-left: 1px !important;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 767px) {
@@ -790,3 +790,38 @@ button:focus {
   vertical-align:middle;
   margin-left: -18px;
 }
+
+/* Add this CSS to your stylesheets or inline style tag */
+
+.contact-card {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-card .project-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+/* Optional: Style links */
+.contact-info a {
+  color: inherit; /* Inherit the color from the parent */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #05aaaa; /* Change color on hover */
+}
+

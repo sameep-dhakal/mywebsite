@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import ContactMe from "./ContactMe";
 import MainLayout from "../layout/mainLayout/mainLayout"
 
 function About() {
@@ -20,7 +21,7 @@ function About() {
             style={{
               justifyContent: "center",
               paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingBottom: "30px",
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
@@ -28,17 +29,13 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
         </Row>
+
+        <ContactMe/>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
+
 
         <Techstack />
       </Container>
