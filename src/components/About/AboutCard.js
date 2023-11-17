@@ -12,7 +12,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             I am from <span className="purple"> Land of Himalayas <strong> Nepal</strong> </span>🇳🇵
-            <br /> I am a Computer Engineering graduate from Tribhuvan university
+            <br /> I am a Computer Engineering graduate from Tribhuvan University, Nepal.
             <br />
             Apart from coding, I am:
           </p>

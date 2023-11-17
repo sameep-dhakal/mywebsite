@@ -41,10 +41,6 @@ function About() {
         </h1>
 
         <Techstack />
-
-    
-
-
       </Container>
     </Container>
     </MainLayout>
