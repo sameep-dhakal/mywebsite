@@ -473,6 +473,12 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
+.card-image {
+  width: 90%;  /* Set your desired width */
+  height:50%; /* Set your desired height */
+  object-fit: cover; /* This ensures the image covers the area without stretching */
+}
+
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -529,7 +535,7 @@ button:focus {
 }
 .btn:focus {
   outline: none !important;
-  box-shadow: none !important;
+  box-shadow: 3px !important;
 }
 .project-heading {
   color: white !important;
