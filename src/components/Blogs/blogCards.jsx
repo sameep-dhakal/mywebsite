@@ -7,7 +7,7 @@ function BlogCards(props) {
     return (
         <Card className="blog-card-view">
             <Card.Body>
-                <Card.Title style={{ color: "#05aaaa" }} >{props.title}</Card.Title>
+                <Card.Title className="card-title-custom" >{props.title}</Card.Title>
                 {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
                 <Card.Text style={{ textAlign: "justify", whiteSpace: "pre-line" }} >
                     {props.description}
