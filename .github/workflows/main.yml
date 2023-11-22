@@ -12,21 +12,23 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
+      with:
+        submodules: recursive  # Include this line if you have submodules
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 14
+        node-version: 16
 
     - name: Install Dependencies
       run: npm install
 
     - name: Build
-      run: npm run build  # Adjust this command based on your build process
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages  # You can change this if you prefer a different branch
-        FOLDER: build  # Change this to the output folder of your build process
+        BRANCH: gh-pages
+        FOLDER: build
