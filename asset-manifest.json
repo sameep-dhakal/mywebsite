@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.70ca7084.css",
+    "main.js": "/static/js/main.0fb6d377.js",
+    "static/js/415.fb51c11d.chunk.js": "/static/js/415.fb51c11d.chunk.js",
+    "static/js/787.35dd0f9c.chunk.js": "/static/js/787.35dd0f9c.chunk.js",
+    "static/media/home-main.jpg": "/static/media/home-main.402f7678a341303d533c.jpg",
+    "static/media/ecommerce.png": "/static/media/ecommerce.3a395acd2aa65af6650c.png",
+    "static/media/summarizer.png": "/static/media/summarizer.dfd39513f5be257f953d.png",
+    "static/media/sameepresume.pdf": "/static/media/sameepresume.f1bab3d6a1199e0f033a.pdf",
+    "static/media/processreport.png": "/static/media/processreport.f76aac08f14e450133f5.png",
+    "static/media/about.png": "/static/media/about.a18fd33cca89929fbd65.png",
+    "static/media/virtualtryon.png": "/static/media/virtualtryon.babb57bc5ac27c3f6648.png",
+    "static/media/autoencoder.png": "/static/media/autoencoder.2090e2481b2b54d6598b.png",
+    "static/media/messianalysis.png": "/static/media/messianalysis.4a6385e0b76acf99cb12.png",
+    "static/media/madrid.png": "/static/media/madrid.3b51ee0879f64b5fffdb.png",
+    "static/media/logo.png": "/static/media/logo.59322ffd89c031262b0f.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.70ca7084.css.map": "/static/css/main.70ca7084.css.map",
+    "main.0fb6d377.js.map": "/static/js/main.0fb6d377.js.map",
+    "415.fb51c11d.chunk.js.map": "/static/js/415.fb51c11d.chunk.js.map",
+    "787.35dd0f9c.chunk.js.map": "/static/js/787.35dd0f9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ca7084.css",
+    "static/js/main.0fb6d377.js"
+  ]
+}
