@@ -30,13 +30,9 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Determine the base URL dynamically
-  const isDevelopment = process.env.NODE_ENV === 'development';
-  const baseUrl = isDevelopment ? '/' : '/mywebsite';
-
 
   return (
-    <Router basename={baseUrl}>
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <ScrollToTop />
