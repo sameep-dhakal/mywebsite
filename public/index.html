@@ -51,13 +51,14 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-      <!-- Redirection Script -->
-      <script>
-        // This script checks the URL and redirects to the correct path
-        document.addEventListener('DOMContentLoaded', () => {
-            const location = window.location.href.split('/').pop();
-            window.location.replace('/#' + location);
-        });
+    <!-- Redirection Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const path = window.location.pathname;
+          if (path && path !== '/') {
+              window.location.replace('/#' + path.slice(1));
+          }
+      });
     </script>
 </body>
 
