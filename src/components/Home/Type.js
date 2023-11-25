@@ -8,6 +8,7 @@ function Type() {
         strings: [
           "Computer Engineer",
           "Instructor",
+          "Learner",
           "Machine Learning Enthusiast",
           "Bioinformatics Enthusiast",
         ],
