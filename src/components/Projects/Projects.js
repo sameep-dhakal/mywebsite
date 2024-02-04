@@ -30,6 +30,7 @@ function Projects() {
                 title="Process Feedback"
                 description="Process Feedback is a tool for visualizing the journey of a writing task. Summarizing the journey with interactive and insightful data visualizations, it helps us gain a deeper understanding of our writing and coding process"
                 demoLink="https://www.processfeedback.org/"
+                // ghlink="false"
               />
             </Col>
             <Col md={4} className="project-card">
