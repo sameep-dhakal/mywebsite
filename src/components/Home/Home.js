@@ -42,7 +42,7 @@ function Home() {
                   alt="home pic"
                   className="img-fluid rounded-circle"
                   style={{
-                    height: "450px",
+                    height: "430px",
                     width: "400px",
                     objectFit: "",
                     border: "2px solid",
