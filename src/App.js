@@ -5,10 +5,10 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -26,7 +26,6 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
 
   return (
     <Router>

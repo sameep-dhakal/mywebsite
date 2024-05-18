@@ -13,7 +13,11 @@ import { ImHipster2 } from "react-icons/im";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section items-center justify-center" id="about">
+    <Container
+      fluid
+      className="home-about-section items-center justify-center"
+      id="about"
+    >
       <Container>
         <Row>
           <Col md={12} className="home-about-description">
@@ -21,35 +25,59 @@ function Home2() {
               My <span className="purple"> Experiences </span>
             </h1>
             <h2 className="home-about-body text-center">
-    Software Developer at 
-    <span className="company-name" data-hover-content="june,2023-Now"> 
-        <a href="https://www.processfeedback.org" target="_blank" rel="noreferrer">
-            Process Feedback.
-        </a>
-    </span>
-    <br />
-    Instructor at 
-    <span className="company-name" data-hover-content="November,2022-Now"> 
-        <a href="https://www.processfeedback.org" target="_blank" rel="noreferrer">
-            Advanced College of Engineering and Management.
-        </a>
-    </span>
-    <br />
-    Software Engineer at 
-    <span className="company-name" data-hover-content="May,2022-August,2022"> 
-        <a href="https://bpeyefoundation.org/" target="_blank" rel="noreferrer">
-            BP Eye Foundation.
-        </a>
-    </span>
-    <br />
-    Data Science Fellow at 
-    <span className="company-name" data-hover-content="April,2022-May,2022"> 
-        <a href="https://www.deerhold.com/" target="_blank" rel="noreferrer">
-            Deerhold.
-        </a>
-    </span>
-</h2>
-
+              Software Developer at
+              <span className="company-name" data-hover-content="june,2023-Now">
+                <a
+                  href="https://www.processfeedback.org"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Process Feedback.
+                </a>
+              </span>
+              <br />
+              Instructor at
+              <span
+                className="company-name"
+                data-hover-content="November,2022-Now"
+              >
+                <a
+                  href="https://www.processfeedback.org"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Advanced College of Engineering and Management.
+                </a>
+              </span>
+              <br />
+              Software Engineer at
+              <span
+                className="company-name"
+                data-hover-content="May,2022-July,2022"
+              >
+                <a
+                  href="https://bpeyefoundation.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  BP Eye Foundation.
+                </a>
+              </span>
+              <br />
+              Data Science Fellow at
+              <span
+                className="company-name"
+                data-hover-content="March,2022-April,2022"
+              >
+                <a
+                  href="https://www.deerhold.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Deerhold.
+                </a>
+              </span>
+            </h2>
           </Col>
           {/* <Col md={4} className="myAvtar">
             <Tilt>
@@ -71,7 +99,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <  AiFillGithub/>
+                  <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
