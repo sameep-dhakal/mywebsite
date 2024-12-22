@@ -50,7 +50,7 @@ function Home2() {
               Instructor at
               <span
                 className="company-name"
-                data-hover-content="November,2022-Now"
+                data-hover-content="November,2022 - July 2024"
               >
                 <a
                   href="https://www.processfeedback.org"
