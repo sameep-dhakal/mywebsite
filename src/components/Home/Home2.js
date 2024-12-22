@@ -25,8 +25,19 @@ function Home2() {
               My <span className="purple"> Experiences </span>
             </h1>
             <h2 className="home-about-body text-center">
+            Graduate Research Assistant
+              <span className="company-name" data-hover-content="August,2024-Now">
+                <a
+                  href="https://digbio.missouri.edu/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  University of Missouri, Digital Biology Lab
+                </a>
+              </span>
+              <br />
               Software Developer at
-              <span className="company-name" data-hover-content="june,2023-Now">
+              <span className="company-name" data-hover-content="june,2023- August 2024">
                 <a
                   href="https://www.processfeedback.org"
                   target="_blank"
