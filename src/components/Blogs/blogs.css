@@ -19,6 +19,16 @@
   .card-title-custom {
     color: #05aaaa;
     font-size: 24px !important; 
-    font-weight: bold; /* Example font weight */
+    /* font-weight: bold; Example font weight */
     font-family: "Arial, sans-serif"; 
+}
+
+  
+.card-subtitle-custom {
+  color: #05aaaa !important;
+  font-size: 18px !important;
+  /* font-weight: bold !important; */
+  font-family: "Arial, sans-serif" !important;
+  display: block !important; /* Ensures it behaves as a block element */
+  margin-bottom: 10px !important; /* Adds space below the subtitle */
 }
